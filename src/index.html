@@ -1,0 +1,1702 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SeniorLand – Homepage</title>
+    <link rel="stylesheet" href="./assets/css/tailwind.css" />
+  </head>
+  <body>
+    <!-- Main header navigation -->
+    <header
+      id="navbar"
+      class="px-5 py-4 md:py-7 sticky inset-x-0 top-0 bg-gray-50 z-20 shadow-md"
+    >
+      <nav class="flex items-center flex-row justify-between">
+        <a href="/">
+          <img
+            src="./assets/img/photos/logo/logo.png"
+            alt="SeniorLand logo"
+            class="h-12 w-auto"
+          />
+        </a>
+        <!-- hamburger opener -->
+        <div>
+          <div class="md:hidden w-14 h-14">
+            <button
+              id="hamburger"
+              class="
+                w-full
+                h-full
+                block
+                relative
+                cursor-pointer
+                z-50
+                bg-transparent
+                border-0
+              "
+              aria-label="Navigation opener"
+            >
+              <span
+                class="
+                  absolute
+                  bg-black
+                  h-0.5
+                  w-8
+                  left-1/2
+                  transform
+                  -translate-x-1/2
+                  top-1/3
+                  transition-all
+                "
+              ></span>
+              <span
+                class="
+                  absolute
+                  bg-black
+                  h-0.5
+                  w-8
+                  left-1/2
+                  transform
+                  -translate-x-1/2
+                  top-1/2
+                  transition-all
+                "
+              ></span>
+              <span
+                class="
+                  absolute
+                  bg-black
+                  h-0.5
+                  w-8
+                  left-1/2
+                  transform
+                  -translate-x-1/2
+                  top
+                  1/2
+                  transition-all
+                "
+              ></span>
+              <span
+                class="
+                  absolute
+                  bg-black
+                  h-0.5
+                  w-8
+                  left-1/2
+                  transform
+                  -translate-x-1/2
+                  top-2/3
+                  transition-all
+                "
+              ></span>
+            </button>
+          </div>
+          <!-- Nav list -->
+          <ul
+            id="nav-list"
+            class="
+              md:shadow-none
+              hidden
+              absolute
+              text-center
+              transform
+              origin-top-right
+              md:transform-none
+              flex-col
+              bg-gray-50
+              inset-x-0
+              top-full
+              divide-y divide-black
+              md:flex
+              md:flex-row
+              md:static
+              md:right-auto
+              md:top-auto
+              md:rounded-none
+              md:divide-y-0
+              gap-4
+              text-xl
+              font-medium
+              transition-all
+              md:animate-none
+              animate-pop
+            "
+          >
+            <li>
+              <a
+                href="./pobyt/"
+                class="
+                  hover:text-mainG
+                  transition-colors
+                  block
+                  px-6
+                  py-4
+                  whitespace-nowrap
+                  md:p-0
+                "
+                >Pobyt</a
+              >
+            </li>
+            <li>
+              <a
+                href="./aktivity/"
+                class="
+                  hover:text-mainG
+                  transition-colors
+                  block
+                  px-6
+                  py-4
+                  whitespace-nowrap
+                  md:p-0
+                "
+                >Aktivity</a
+              >
+            </li>
+            <li>
+              <a
+                href="./areal/"
+                class="
+                  hover:text-mainG
+                  transition-colors
+                  block
+                  px-6
+                  py-4
+                  whitespace-nowrap
+                  md:p-0
+                "
+                >Areál</a
+              >
+            </li>
+            <li>
+              <a
+                href="./lokalita/"
+                class="
+                  hover:text-mainG
+                  transition-colors
+                  block
+                  px-6
+                  py-4
+                  whitespace-nowrap
+                  md:p-0
+                "
+                >Lokalita</a
+              >
+            </li>
+            <li>
+              <a
+                href="./zdravotni-pece/"
+                class="
+                  hover:text-mainG
+                  transition-colors
+                  block
+                  px-6
+                  py-4
+                  whitespace-nowrap
+                  md:p-0
+                "
+                >Zdravotní péče</a
+              >
+            </li>
+            <li>
+              <a
+                href="./caste-dotazy/"
+                class="
+                  hover:text-mainG
+                  transition-colors
+                  block
+                  px-6
+                  py-4
+                  whitespace-nowrap
+                  md:p-0
+                "
+                >Časté dotazy</a
+              >
+            </li>
+            <li>
+              <a
+                href="./kontakt/"
+                class="
+                  hover:text-mainG
+                  transition-colors
+                  block
+                  px-6
+                  py-4
+                  whitespace-nowrap
+                  md:p-0
+                "
+                >Kontakt</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div>
+      <!-- Hero -->
+      <section
+        class="
+          relative
+          flex flex-col
+          h-[90vh]
+          w-screen
+          px-4
+          sm:px-8
+          md:px-12
+          lg:px-[150px]
+          py-12
+          lg:py-16
+        "
+      >
+        <div class="absolute inset-0">
+          <img
+            src="./assets/img/photos/elder-couple.jpg"
+            alt="Seniorland pár seniorů"
+            class="w-full object-cover h-full"
+          />
+          <div
+            class="absolute bg-black bg-opacity-60 inset-0"
+            aria-hidden="true"
+          ></div>
+        </div>
+        <div
+          class="
+            relative
+            flex flex-col
+            h-full
+            justify-center
+            text-white
+            max-w-7xl
+            mx-auto
+            text-center
+          "
+        >
+          <h1 class="uppercase text-4xl sm:text-5xl lg:text-6xl font-bold mb-4">
+            Jedinečný<span class="leading-tight text-mainG"> domov</span>
+            <span class="leading-normal block">Jedinečná Komunita</span>
+          </h1>
+          <p
+            class="
+              text-white
+              max-w-prose
+              mx-auto
+              leading-relaxed
+              text-sm
+              sm:text-lg
+              mb-4
+            "
+          >
+            Měníme styl důchodového bydlení. Žádné osamělé a monotónní stáří,
+            ale naopak stáří plné zážitků, nových zkušeností a možností.
+          </p>
+          <div>
+            <a
+              href="./kontakt/"
+              class="
+                text-white
+                bg-mainG
+                hover:bg-mainGDark
+                transition-colors
+                py-4
+                px-8
+                mt-4
+                inline-block
+                rounded-md
+              "
+            >
+              Kontaktujte nás
+            </a>
+          </div>
+        </div>
+        <!-- link line -->
+        <footer
+          class="
+            hidden
+            md:flex
+            lg:font-medium lg:text-2xl
+            relative
+            text-gray-200
+            items-center
+            justify-between
+            max-w-7xl
+            w-full
+            px-6
+            py-4
+            mx-auto
+            before:absolute
+            before:top-0
+            before:h-px
+            before:inset-x-0
+            before:bg-gray-200
+          "
+        >
+          <!-- hero link -->
+          <a
+            href="/pobyt/"
+            class="
+              flex
+              items-center
+              gap-4
+              hover:text-mainGLight
+              transition-colors
+            "
+          >
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              class="h-6"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 576 512"
+            >
+              <path
+                fill="currentColor"
+                d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"
+              ></path>
+            </svg>
+            <span>Ubytování</span>
+            <svg
+              class="h-4"
+              aria-hidden="true"
+              focusable="false"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 192 512"
+              fill="currentColor"
+            >
+              <path
+                d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"
+              ></path>
+            </svg>
+          </a>
+          <!-- hero link -->
+          <a
+            href="./aktivity/"
+            class="
+              flex
+              items-center
+              gap-4
+              hover:text-mainGLight
+              transition-colors
+            "
+          >
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              class="h-6"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 384 512"
+            >
+              <path
+                fill="currentColor"
+                d="M80.95 472.23c-4.28 17.16 6.14 34.53 23.28 38.81 2.61.66 5.22.95 7.8.95 14.33 0 27.37-9.7 31.02-24.23l25.24-100.97-52.78-52.78-34.56 138.22zm14.89-196.12L137 117c2.19-8.42-3.14-16.95-11.92-19.06-43.88-10.52-88.35 15.07-99.32 57.17L.49 253.24c-2.19 8.42 3.14 16.95 11.92 19.06l63.56 15.25c8.79 2.1 17.68-3.02 19.87-11.44zM368 160h-16c-8.84 0-16 7.16-16 16v16h-34.75l-46.78-46.78C243.38 134.11 228.61 128 212.91 128c-27.02 0-50.47 18.3-57.03 44.52l-26.92 107.72a32.012 32.012 0 0 0 8.42 30.39L224 397.25V480c0 17.67 14.33 32 32 32s32-14.33 32-32v-82.75c0-17.09-6.66-33.16-18.75-45.25l-46.82-46.82c.15-.5.49-.89.62-1.41l19.89-79.57 22.43 22.43c6 6 14.14 9.38 22.62 9.38h48v240c0 8.84 7.16 16 16 16h16c8.84 0 16-7.16 16-16V176c.01-8.84-7.15-16-15.99-16zM240 96c26.51 0 48-21.49 48-48S266.51 0 240 0s-48 21.49-48 48 21.49 48 48 48z"
+              ></path>
+            </svg>
+            <span>Aktivity</span>
+            <svg
+              class="h-4"
+              aria-hidden="true"
+              focusable="false"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 192 512"
+              fill="currentColor"
+            >
+              <path
+                d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"
+              ></path>
+            </svg>
+          </a>
+          <!-- hero link -->
+          <a
+            href="./lokalita/"
+            class="
+              flex
+              items-center
+              gap-4
+              hover:text-mainGLight
+              transition-colors
+            "
+          >
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              class="h-6"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 576 512"
+            >
+              <path
+                fill="currentColor"
+                d="M546.2 9.7c-5.6-12.5-21.6-13-28.3-1.2C486.9 62.4 431.4 96 368 96h-80C182 96 96 182 96 288c0 7 .8 13.7 1.5 20.5C161.3 262.8 253.4 224 384 224c8.8 0 16 7.2 16 16s-7.2 16-16 16C132.6 256 26 410.1 2.4 468c-6.6 16.3 1.2 34.9 17.5 41.6 16.4 6.8 35-1.1 41.8-17.3 1.5-3.6 20.9-47.9 71.9-90.6 32.4 43.9 94 85.8 174.9 77.2C465.5 467.5 576 326.7 576 154.3c0-50.2-10.8-102.2-29.8-144.6z"
+              ></path>
+            </svg>
+            <span>Prostředí</span>
+            <svg
+              class="h-4"
+              aria-hidden="true"
+              focusable="false"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 192 512"
+            >
+              <path
+                fill="currentColor"
+                d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"
+              ></path>
+            </svg>
+          </a>
+          <!-- hero link -->
+          <a
+            href="./zdravotni-pece/"
+            class="
+              flex
+              items-center
+              gap-4
+              hover:text-mainGLight
+              transition-colors
+            "
+          >
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              class="h-6"
+            >
+              <path
+                fill="currentColor"
+                d="M320.2 243.8l-49.7 99.4c-6 12.1-23.4 11.7-28.9-.6l-56.9-126.3-30 71.7H60.6l182.5 186.5c7.1 7.3 18.6 7.3 25.7 0L451.4 288H342.3l-22.1-44.2zM473.7 73.9l-2.4-2.5c-51.5-52.6-135.8-52.6-187.4 0L256 100l-27.9-28.5c-51.5-52.7-135.9-52.7-187.4 0l-2.4 2.4C-10.4 123.7-12.5 203 31 256h102.4l35.9-86.2c5.4-12.9 23.6-13.2 29.4-.4l58.2 129.3 49-97.9c5.9-11.8 22.7-11.8 28.6 0l27.6 55.2H481c43.5-53 41.4-132.3-7.3-182.1z"
+              ></path>
+            </svg>
+            <span>Zdravotní péče</span>
+            <svg
+              class="h-4"
+              aria-hidden="true"
+              focusable="false"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 192 512"
+              fill="currentColor"
+            >
+              <path
+                d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"
+              ></path>
+            </svg>
+          </a>
+        </footer>
+      </section>
+      <!-- Story -->
+      <section class="relative py-12 lg:py-16 px-4 sm:px-6 lg:px-8">
+        <!-- Heading main -->
+        <header class="text-center mb-12">
+          <h2 class="uppercase text-mainG">důchodové bydlení</h2>
+          <h3>Bydlení, které si zamilujete</h3>
+        </header>
+        <main class="max-w-7xl mx-auto space-y-6 sm:space-y-8 lg:space-y-12">
+          <!-- Simple image left -->
+          <div
+            class="
+              flex flex-col
+              lg:flex-row
+              flex-grow flex-shrink
+              space-y-8
+              lg:space-y-0
+              max-w-prose
+              lg:max-w-5xl
+              mx-auto
+            "
+          >
+            <div class="relative space-y-6">
+              <h4>Nové možnosti</h4>
+              <div class="text-gray-500 space-y-6">
+                <p>
+                  V Čechách je důchodové bydlení spojováno s něčím nedůstojným,
+                  kam na stáří dávají děti své rodiče, o které se nechtějí
+                  starat. To ale není absolutně náš případ.
+                </p>
+                <p>
+                  Seniorland nabízí nezávislé komunitní a rezidenční bydlení v
+                  nově budovaných apartmánech na venkově v krásném a bezpečném
+                  prostředí s veškerým potřebným servisem.
+                </p>
+              </div>
+            </div>
+            <img
+              src="./assets/img/photos/hiking.jpg"
+              alt=""
+              class="
+                max-h-96
+                lg:max-h-72
+                rounded-md
+                min-w-[45%]
+                lg:ml-6
+                object-cover
+              "
+              width="100%"
+            />
+          </div>
+          <!-- Image Wide -->
+          <div class="relative py-14">
+            <div
+              class="
+                absolute
+                hidden
+                sm:block
+                inset-0
+                lg:left-auto lg:right-0 lg:top-0 lg:bottom-0 lg:w-[70%]
+              "
+            >
+              <img
+                src="./assets/img/photos/vigvam-day.jpg"
+                alt="vigvam"
+                class="w-full object-cover h-full"
+              />
+              <div
+                class="absolute bg-black bg-opacity-60 inset-0"
+                aria-hidden="true"
+              ></div>
+            </div>
+            <a href="/areal/">
+              <div class="relative text-white bg-black max-w-md px-8 py-14">
+                <h4>Vigvam místem energie</h4>
+                <div class="flex items-center">
+                  <p class="text-gray-200">
+                    Vigvam je indiánská chýše kuželovitého tvaru, zhotovená ze
+                    dřeva. Konkrétně náš vigvam je nejvyšší na světě a pro nás
+                    symbolizuje životní energii a zdraví.
+                  </p>
+                  <img
+                    src="./assets/img/icons/caret-right-solid.svg"
+                    alt=""
+                    class="h-8"
+                  />
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Simple image right -->
+          <div
+            class="
+              flex flex-col
+              lg:flex-row-reverse
+              flex-grow flex-shrink
+              lg:max-h-72
+              space-y-8
+              lg:space-y-0
+              max-w-prose
+              lg:max-w-5xl
+              mx-auto
+            "
+          >
+            <div class="relative space-y-6">
+              <h4>Konec starostem</h4>
+              <div class="text-gray-500 space-y-6">
+                <p>
+                  Vypusťte z hlavy běžné starosti všedního dne, jako jsou nákupy
+                  nebo úklid a dělejte pouze to, co vás baví. Udělejte si nové
+                  přátele, věnujte se novým koníčkům, užívejte si to, na co jste
+                  dříve neměli čas.
+                </p>
+                <p>
+                  Seniorland je nový životní styl. Dává svobodu bezstarostně
+                  trávit váš čas, jakkoliv se rozhodnete.
+                </p>
+              </div>
+            </div>
+            <img
+              src="./assets/img/photos/senior-couple.jpg"
+              alt=""
+              class="
+                max-h-96
+                lg:max-h-72
+                rounded-md
+                min-w-[45%]
+                lg:mr-6
+                object-cover
+              "
+              width="100%"
+            />
+          </div>
+        </main>
+      </section>
+      <!-- Mise -->
+      <section class="relative py-12 lg:py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-5xl mx-auto relative">
+          <div class="lg:pl-8">
+            <!-- Heading main -->
+            <header class="mb-12 text-center">
+              <h2 class="uppercase text-mainG">hodnoty</h2>
+              <h3>Naše poslání jste vy</h3>
+            </header>
+            <main class="space-y-6">
+              <p class="max-w-prose text-center mx-auto text-gray-500">
+                Aby pro vás bylo bydlení, co nejpohodlnější jsou pro nás
+                důležitá pravidla, kterých se držíme.
+              </p>
+              <div
+                class="
+                  grid grid-cols-1 grid-flow-row
+                  md:grid-cols-2 md:grid-rows-2
+                  gap-6
+                "
+              >
+                <div class="bg-gray-100 border-l-4 border-mainG px-4 py-6">
+                  <h4 class="uppercase text-lg">Bezpečí</h4>
+                  <p class="font-light">
+                    Pohybujete se svobodně po areálu a přitom jste neustále
+                    chráněni.
+                  </p>
+                </div>
+                <div class="bg-gray-100 border-l-4 border-mainG px-4 py-6">
+                  <h4 class="uppercase text-lg">Žádné starosti</h4>
+                  <p class="font-light">
+                    Nemusíte řešit bydlení a starosti s tím spojené, mít strach
+                    ze samoty nebo obavy z budoucnosti.
+                  </p>
+                </div>
+                <div class="bg-gray-100 border-l-4 border-mainG px-4 py-6">
+                  <h4 class="uppercase text-lg">Zdraví</h4>
+                  <p class="font-light">
+                    Lékařská péče je vám neustále k dispozici.
+                  </p>
+                </div>
+                <div class="bg-gray-100 border-l-4 border-mainG px-4 py-6">
+                  <h4 class="uppercase text-lg">Respekt</h4>
+                  <p class="font-light">
+                    Váš život nijak neorganizujeme, svůj program si řídíte sami.
+                  </p>
+                </div>
+              </div>
+            </main>
+          </div>
+        </div>
+      </section>
+      <!-- Location -->
+      <section class="relative py-12 lg:py-16 px-4 sm:px-6 lg:px-8">
+        <!-- Heading main -->
+        <header class="text-center mb-8">
+          <h2 class="uppercase text-mainG">místo</h2>
+          <h3>Kde nás najdete</h3>
+        </header>
+        <main class="max-w-7xl mx-auto space-y-12">
+          <p class="max-w-prose text-center mx-auto text-gray-500">
+            Seniorland Vigvam se nachází na okraji klidné vesničky Němčice u
+            Kolína v srdci Středočeského kraje.
+          </p>
+          <div class="relative py-14">
+            <div
+              class="
+                overflow-hidden
+                absolute
+                hidden
+                sm:block
+                inset-0
+                lg:left-auto lg:right-0 lg:top-0 lg:bottom-0 lg:w-11/12
+              "
+            >
+              <img
+                src="./assets/img/photos/lokalita-full.svg"
+                alt=""
+                class="w-full object-right object-cover h-full"
+              />
+              <div
+                class="absolute bg-black bg-opacity-20 inset-0"
+                aria-hidden="true"
+              ></div>
+            </div>
+            <div class="relative text-white bg-black max-w-md px-8 py-14">
+              <h4>Dobrá dojezdová vzdálenost</h4>
+              <div class="flex items-center">
+                <p>
+                  Díky svému umístění je v dojezdové vzdálenosti 30 minut z
+                  Prahy, Pardubic i Hradce Králové
+                </p>
+                <img
+                  src="./assets/img/icons/caret-right-solid.svg"
+                  alt=""
+                  class="h-8"
+                />
+              </div>
+            </div>
+          </div>
+        </main>
+      </section>
+      <!-- Areal -->
+      <section class="relative py-12 lg:py-16 px-4 sm:px-6 lg:px-8">
+        <!-- Heading main -->
+        <header class="text-center mb-12">
+          <h2 class="uppercase text-mainG">areál</h2>
+          <h3>Areál a život v něm</h3>
+        </header>
+        <main class="space-y-14">
+          <!-- Simple image left -->
+          <div
+            class="
+              flex flex-col
+              lg:flex-row
+              flex-grow flex-shrink
+              space-y-8
+              lg:space-y-0
+              max-w-prose
+              lg:max-w-5xl
+              mx-auto
+            "
+          >
+            <div class="relative space-y-6">
+              <h4>Areál</h4>
+              <div class="text-gray-500 space-y-4">
+                <p>
+                  Abychom pro vás vytvořili nejlepší možné komunitní bydlení
+                  jsou součástí areálu i další objekty a služby, jako
+                  restaurace, hotel, wellness, vinný sklep nebo třeba bowlingová
+                  dráha.
+                </p>
+                <p>
+                  Samozřejmostí je dostatek volného prostranství, zeleň, rybník.
+                  To vše s lesním prostředím hned za branami Seniorlandu.
+                </p>
+              </div>
+              <div>
+                <a
+                  href="/areal/"
+                  class="
+                    bg-mainG
+                    hover:bg-mainGDark
+                    px-4
+                    py-3
+                    text-white
+                    rounded-md
+                    block
+                    w-max
+                    min-w-[10ch]
+                    text-center
+                  "
+                  >Areál</a
+                >
+              </div>
+            </div>
+            <img
+              src="./assets/img/photos/vigvam-night.jpg"
+              alt=""
+              class="
+                max-h-96
+                lg:max-h-72
+                rounded-md
+                lg:ml-6
+                min-w-[45%]
+                object-cover
+              "
+              width="100%"
+            />
+          </div>
+          <!-- Simple image right -->
+          <div
+            class="
+              flex flex-col
+              lg:flex-row-reverse
+              flex-grow flex-shrink
+              space-y-8
+              lg:space-y-0
+              max-w-prose
+              lg:max-w-5xl
+              mx-auto
+            "
+          >
+            <div class="relative space-y-6">
+              <h4>Pobyt</h4>
+              <div class="text-gray-500 space-y-4">
+                <p>
+                  Chceme pro vás vybudovat bezpečný a pohodlný domov, kde
+                  neřešíte žádné opravy domácnosti nebo sekání trávy, o vše je
+                  postaráno. Místo toho můžete trávit čas, jak je vám příjemné.
+                </p>
+                <p>
+                  Je čas znovu přemýšlet o tom, co je to důchod a začít si ho
+                  užívat naplno - získat nové přátele a nové vzpomínky.
+                </p>
+              </div>
+              <div>
+                <a
+                  href="/areal/"
+                  class="
+                    bg-mainG
+                    hover:bg-mainGDark
+                    px-4
+                    py-3
+                    text-white
+                    rounded-md
+                    block
+                    w-max
+                    min-w-[10ch]
+                    text-center
+                  "
+                  >Pobyt</a
+                >
+              </div>
+            </div>
+            <img
+              src="./assets/img/photos/elderly-traveler-appreciating-beauty-nature.jpg"
+              alt=""
+              class="
+                max-h-96
+                lg:max-h-72
+                rounded-md
+                min-w-[45%]
+                lg:mr-6
+                object-cover
+              "
+              width="100%"
+            />
+          </div>
+          <!-- Simple image left -->
+          <div
+            class="
+              flex flex-col
+              lg:flex-row
+              flex-grow flex-shrink
+              space-y-8
+              lg:space-y-0
+              max-w-prose
+              lg:max-w-5xl
+              mx-auto
+            "
+          >
+            <div class="relative space-y-6">
+              <h4>Lokalita</h4>
+              <div class="text-gray-500 space-y-4">
+                <p>
+                  Němčice svou blízkostí přiléhají ke 2 větším městům - Kolínu a
+                  Týnci nad Labem. Zároveň mají ve své blízkosti města, jako
+                  jsou Kutná Hora, Čáslav, Poděbrady nebo Nymburk.
+                </p>
+                <p>
+                  Mimo to se v okolí nachází spoustu dalších historických a
+                  kulturních památek, které stojí za to navštívit.
+                </p>
+              </div>
+              <div>
+                <a
+                  href="./lokalita/"
+                  class="
+                    bg-mainG
+                    hover:bg-mainGDark
+                    px-4
+                    py-3
+                    text-white
+                    rounded-md
+                    block
+                    w-max
+                    min-w-[10ch]
+                    text-center
+                  "
+                  >Lokalita</a
+                >
+              </div>
+            </div>
+            <img
+              src="./assets/img/photos/kutnaHora.jpg"
+              alt="Kutná Hora"
+              class="
+                max-h-96
+                lg:max-h-72 lg:max-w-[50%]
+                min-w-[45%]
+                rounded-md
+                lg:ml-6
+                object-cover
+              "
+              width="100%"
+            />
+          </div>
+        </main>
+      </section>
+      <!-- Lekarska Pece -->
+      <section class="relative py-12 lg:py-16 px-4 sm:px-6 lg:px-8">
+        <!-- Heading main -->
+        <header class="text-center mb-12">
+          <h2 class="uppercase text-mainG">Zdravotní péče</h2>
+          <h3>Zdraví a vše kolem něj</h3>
+        </header>
+        <main class="max-w-5xl mx-auto">
+          <!-- Content Image Right MAIN -->
+          <div
+            class="
+              flex flex-col
+              lg:flex-row
+              flex-grow flex-shrink
+              space-x-0 space-y-8
+              lg:space-x-8 lg:space-y-0
+            "
+          >
+            <div
+              class="
+                relative
+                pt-12
+                pb-16
+                sm:pt-0
+                lg:max-w-7xl lg:mr-auto lg:pr-6
+              "
+            >
+              <div
+                class="
+                  text-base
+                  max-w-prose
+                  mx-auto
+                  lg:max-w-lg lg:mr-0
+                  space-y-6
+                "
+              >
+                <div class="mt-5 prose prose-green text-gray-500">
+                  <!-- <h4>Lorem Ipsum</h4> -->
+                  <p>
+                    Nezbytnou součástí areálu je i komplexní lékařská péče,
+                    proto zde bude vybudováno několik samostatných ordinací,
+                    čekárna a rehabilitační místnost.
+                  </p>
+                  <h5 class="text-gray-800">Prevence i první pomoc</h5>
+                  <p>
+                    Nejedná se pouze o 24 hodinovou akutní péči nebo ošetření,
+                    ale naopak dbáme na prevenci a řešení individuálních
+                    zdravotních problémů, jako jsou například omezení ve
+                    stravování či pohybových aktivitách.
+                  </p>
+                  <ul>
+                    <li>Preventivní prohlídky vás a vaší rodiny</li>
+                    <li>Rehabilitace</li>
+                    <li>Sestavení dietních a pohybových plánů</li>
+                    <li>První pomoc</li>
+                  </ul>
+                  <p>
+                    Více informací o zdravotní péči na kartě
+                    <i>zdravotní péče</i>.
+                  </p>
+                </div>
+                <a
+                  href="./zdravotni-pece/"
+                  class="
+                    bg-mainG
+                    hover:bg-mainGDark
+                    px-4
+                    py-3
+                    text-white
+                    rounded-md
+                    flex
+                    w-max
+                  "
+                >
+                  Více informací
+                </a>
+              </div>
+            </div>
+            <div class="lg:w-1/2 lg:h-auto flex items-center justify-center">
+              <img
+                class="
+                  h-96
+                  w-full
+                  max-w-prose
+                  object-cover
+                  lg:h-full
+                  rounded-lg
+                  shadow-md
+                "
+                src="./assets/img/photos/smiling-good-looking-senior-lady-sitting-front-professional-oculist.jpg"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </main>
+      </section>
+      <!-- FAQ -->
+      <section class="relative py-12 lg:py-16 px-4 sm:px-6 lg:px-8" id="faqs">
+        <header class="text-center">
+          <h2 class="text-3xl normal-case font-extrabold">Časté dotazy</h2>
+        </header>
+        <main class="max-w-3xl mx-auto divide-y-2 divide-gray-200">
+          <!-- FAQ list -->
+          <dl class="mt-6 space-y-6 divide-y divide-gray-200">
+            <!-- FAQ item -->
+            <div class="pt-6">
+              <dt class="text-lg">
+                <button
+                  type="button"
+                  class="
+                    text-left
+                    w-full
+                    flex
+                    justify-between
+                    items-start
+                    text-gray-400
+                  "
+                  aria-controls="faq-0"
+                  aria-expanded="false"
+                >
+                  <span class="font-medium text-gray-900"
+                    >Kdy bude projekt hotový</span
+                  >
+                  <span class="ml-6 h-7 flex items-center">
+                    <svg
+                      class="h-6 w-6 transition-all ease-in-out duration-200"
+                      style="rotate: -90deg"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </dt>
+              <dd
+                class="
+                  mt-2
+                  pr-12
+                  max-h-0
+                  transition-all
+                  duration-200
+                  ease-in-out
+                  overflow-hidden
+                "
+                id="faq-0"
+              >
+                <p class="text-base text-gray-500">
+                  Začátek staveb je plánován na začátek druhé poloviny roku
+                  2022.
+                </p>
+              </dd>
+            </div>
+            <!-- FAQ item -->
+            <div class="pt-6">
+              <dt class="text-lg">
+                <button
+                  type="button"
+                  class="
+                    text-left
+                    w-full
+                    flex
+                    justify-between
+                    items-start
+                    text-gray-400
+                  "
+                  aria-controls="faq-1"
+                  aria-expanded="false"
+                >
+                  <span class="font-medium text-gray-900"
+                    >Kde se areál nachází</span
+                  >
+                  <span class="ml-6 h-7 flex items-center">
+                    <svg
+                      class="h-6 w-6 transition-all ease-in-out duration-200"
+                      style="rotate: -90deg"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </dt>
+              <dd
+                class="
+                  mt-2
+                  pr-12
+                  max-h-0
+                  transition-all
+                  duration-200
+                  ease-in-out
+                  overflow-hidden
+                "
+                id="faq-1"
+              >
+                <p class="text-base text-gray-500">
+                  Leží ve vzdálenosti 7 km od Týnce nad Labem a 10 km od Kolína.
+                </p>
+              </dd>
+            </div>
+            <!-- FAQ item -->
+            <div class="pt-6">
+              <dt class="text-lg">
+                <button
+                  type="button"
+                  class="
+                    text-left
+                    w-full
+                    flex
+                    justify-between
+                    items-start
+                    text-gray-400
+                  "
+                  aria-controls="faq-2"
+                  aria-expanded="false"
+                >
+                  <span class="font-medium text-gray-900"
+                    >Jak vypadá ubytování</span
+                  >
+                  <span class="ml-6 h-7 flex items-center">
+                    <svg
+                      class="h-6 w-6 transition-all ease-in-out duration-200"
+                      style="rotate: -90deg"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 9l-7 7-7-7"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </dt>
+              <dd
+                class="
+                  mt-2
+                  pr-12
+                  max-h-0
+                  transition-all
+                  duration-200
+                  ease-in-out
+                  overflow-hidden
+                "
+                id="faq-2"
+              >
+                <p class="text-base text-gray-500">
+                  Apartmány budou dispozičně řešeny 1+kk nebo 2+kk, varianta
+                  bydlení pro 1 i 2 osoby.
+                </p>
+              </dd>
+            </div>
+          </dl>
+        </main>
+      </section>
+      <!-- Contact -->
+      <section class="relative py-12 lg:py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-5xl mx-auto space-y-6">
+          <header>
+            <h2 class="uppercase text-mainG">Kontakt</h2>
+            <h3 class="mb-4">Chcete se dozvědět více?</h3>
+            <p>Napište nám a rádi vám poskytneme další informace.</p>
+          </header>
+          <div>
+            <!-- <?php echo $_SERVER['PHP_SELF'];?> -->
+            <form action="" method="post" class="space-y-4">
+              <div class="space-y-8">
+                <div
+                  class="
+                    relative
+                    text-gray-300
+                    mt-2
+                    mb-6
+                    mx-1
+                    h-11
+                    rounded-md
+                    bg-white
+                    transition-all
+                    border border-gray-400
+                  "
+                  relative
+                  text-gray-200
+                  h-11
+                  rounded-t-md
+                  bg-black
+                  bg-opacity-10
+                >
+                  <input
+                    name="name"
+                    id="name"
+                    type="text"
+                    class="
+                      pt-3
+                      pl-4
+                      pb-3
+                      w-full
+                      h-full
+                      outline-none
+                      bg-transparent
+                      text-gray-700
+                    "
+                    required
+                  />
+                  <label
+                    for="name"
+                    class="
+                      block
+                      absolute
+                      ml-3
+                      px-1.5
+                      top-1/2
+                      transform
+                      -translate-y-1/2
+                      transition-all
+                    "
+                  >
+                    Jméno a příjmení
+                  </label>
+                  <div
+                    id="name__error"
+                    class="
+                      absolute
+                      hidden
+                      text-sm text-left
+                      italic
+                      pl-3
+                      bottom-0
+                      transform
+                      translate-y-full
+                    "
+                  ></div>
+                </div>
+                <div
+                  class="
+                    relative
+                    text-gray-300
+                    h-11
+                    rounded-md
+                    bg-white
+                    transition-all
+                    border border-gray-400
+                  "
+                >
+                  <input
+                    name="email"
+                    id="email"
+                    type="email"
+                    class="
+                      pt-3
+                      pl-4
+                      pb-3
+                      w-full
+                      h-full
+                      outline-none
+                      bg-transparent
+                      text-gray-700
+                    "
+                    required
+                  />
+                  <label
+                    for="email"
+                    class="
+                      block
+                      absolute
+                      ml-3
+                      px-1.5
+                      top-1/2
+                      transform
+                      -translate-y-1/2
+                      transition-all
+                    "
+                  >
+                    Email
+                  </label>
+                  <div
+                    id="email__error"
+                    class="
+                      absolute
+                      hidden
+                      text-sm text-left
+                      italic
+                      pl-4
+                      w-full
+                      bottom-0
+                      transform
+                      translate-y-full
+                    "
+                  ></div>
+                </div>
+                <div
+                  class="
+                    relative
+                    text-gray-300
+                    h-11
+                    rounded-md
+                    bg-white
+                    transition-all
+                    border border-gray-400
+                  "
+                >
+                  <input
+                    name="phone"
+                    id="phone"
+                    type="text"
+                    class="
+                      pt-3
+                      pl-4
+                      pb-3
+                      w-full
+                      h-full
+                      outline-none
+                      bg-transparent
+                      text-gray-700
+                    "
+                  />
+                  <label
+                    for="phone"
+                    class="
+                      block
+                      absolute
+                      ml-3
+                      px-1.5
+                      top-1/2
+                      transform
+                      -translate-y-1/2
+                      transition-all
+                    "
+                  >
+                    Telefon
+                  </label>
+                  <div
+                    id="phone__error"
+                    class="
+                      absolute
+                      hidden
+                      text-sm text-left
+                      italic
+                      pl-4
+                      w-full
+                      bottom-0
+                      transform
+                      translate-y-full
+                    "
+                  ></div>
+                </div>
+                <div
+                  class="
+                    relative
+                    h-96
+                    text-gray-300
+                    rounded-md
+                    bg-white
+                    transition-all
+                    border border-gray-400
+                  "
+                >
+                  <textarea
+                    name="message"
+                    id="message"
+                    type="text"
+                    class="
+                      pt-3
+                      pl-3
+                      pb-3
+                      w-full
+                      h-full
+                      outline-none
+                      bg-transparent
+                      resize-none
+                      text-gray-700
+                    "
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                  <label
+                    for="message"
+                    class="block absolute ml-3 px-1.5 top-3 transition-all"
+                  >
+                    Zpráva
+                  </label>
+                  <div
+                    id="message__error"
+                    class="
+                      absolute
+                      hidden
+                      text-sm text-left
+                      italic
+                      pl-4
+                      w-full
+                      bottom-0
+                      transform
+                      translate-y-full
+                    "
+                  ></div>
+                </div>
+              </div>
+
+              <div>
+                <span>
+                  Odesláním souhlasíte se
+                  <a
+                    href="./osobni-udaje/"
+                    class="
+                      text-mainG
+                      hover:text-mainGDark
+                      transition-colors
+                      underline
+                    "
+                  >
+                    zpracováním osobních údajů
+                  </a>
+                  .
+                </span>
+              </div>
+
+              <button
+                type="submit"
+                class="
+                  text-white
+                  bg-mainG
+                  hover:bg-mainGDark
+                  transition-colors
+                  py-4
+                  px-8
+                  mt-4
+                  inline-block
+                  rounded-md
+                "
+              >
+                Odeslat formulář
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <footer class="bg-gray-100 relative py-12 lg:py-16 px-6 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto text-center space-y-4 text-gray-500">
+          <nav class="flex flex-col justify-center items-center space-y-4">
+            <ul
+              class="
+                flex flex-col
+                md:flex-row
+                divide-y
+                md:divide-x md:divide-y-0
+                divide-gray-500
+              "
+            >
+              <li class="px-3 py-3 md:py-1">
+                <a
+                  href="./"
+                  class="
+                    relative
+                    transition-colors
+                    hover:text-gray-700
+                    after:absolute
+                    after:h-px
+                    after:transition-all
+                    after:bg-gray-700
+                    after:w-0
+                    after:transform
+                    after:bottom-0
+                    after:left-1/2
+                    hover:after:inset-x-0 hover:after:w-full
+                  "
+                  >Domovská stránka</a
+                >
+              </li>
+              <li class="px-3 py-3 md:py-1">
+                <a
+                  href="./pobyt/"
+                  class="
+                    relative
+                    transition-colors
+                    hover:text-gray-700
+                    after:absolute
+                    after:h-px
+                    after:transition-all
+                    after:bg-gray-700
+                    after:w-0
+                    after:transform
+                    after:bottom-0
+                    after:left-1/2
+                    hover:after:inset-x-0 hover:after:w-full
+                  "
+                  >Pobyt</a
+                >
+              </li>
+              <li class="px-3 py-3 md:py-1">
+                <a
+                  href="./aktivity/"
+                  class="
+                    relative
+                    transition-colors
+                    hover:text-gray-700
+                    after:absolute
+                    after:h-px
+                    after:transition-all
+                    after:bg-gray-700
+                    after:w-0
+                    after:transform
+                    after:bottom-0
+                    after:left-1/2
+                    hover:after:inset-x-0 hover:after:w-full
+                  "
+                  >Aktivity</a
+                >
+              </li>
+              <li class="px-3 py-3 md:py-1">
+                <a
+                  href="./areal/"
+                  class="
+                    relative
+                    transition-colors
+                    hover:text-gray-700
+                    after:absolute
+                    after:h-px
+                    after:transition-all
+                    after:bg-gray-700
+                    after:w-0
+                    after:transform
+                    after:bottom-0
+                    after:left-1/2
+                    hover:after:inset-x-0 hover:after:w-full
+                  "
+                  >Areál</a
+                >
+              </li>
+              <li class="px-3 py-3 md:py-1">
+                <a
+                  href="./lokalita/"
+                  class="
+                    relative
+                    transition-colors
+                    hover:text-gray-700
+                    after:absolute
+                    after:h-px
+                    after:transition-all
+                    after:bg-gray-700
+                    after:w-0
+                    after:transform
+                    after:bottom-0
+                    after:left-1/2
+                    hover:after:inset-x-0 hover:after:w-full
+                  "
+                  >Lokalita</a
+                >
+              </li>
+              <li class="px-3 py-3 md:py-1">
+                <a
+                  href="./zdravotni-pece/"
+                  class="
+                    relative
+                    transition-colors
+                    hover:text-gray-700
+                    after:absolute
+                    after:h-px
+                    after:transition-all
+                    after:bg-gray-700
+                    after:w-0
+                    after:transform
+                    after:bottom-0
+                    after:left-1/2
+                    hover:after:inset-x-0 hover:after:w-full
+                  "
+                  >Zdravotní péče</a
+                >
+              </li>
+              <li class="px-3 py-3 md:py-1">
+                <a
+                  href="./caste-dotazy/"
+                  class="
+                    relative
+                    transition-colors
+                    hover:text-gray-700
+                    after:absolute
+                    after:h-px
+                    after:transition-all
+                    after:bg-gray-700
+                    after:w-0
+                    after:transform
+                    after:bottom-0
+                    after:left-1/2
+                    hover:after:inset-x-0 hover:after:w-full
+                  "
+                  >Časté dotazy</a
+                >
+              </li>
+              <li class="px-3 py-3 md:py-1">
+                <a
+                  href="./kontakt/"
+                  class="
+                    relative
+                    transition-colors
+                    hover:text-gray-700
+                    after:absolute
+                    after:h-px
+                    after:transition-all
+                    after:bg-gray-700
+                    after:w-0
+                    after:transform
+                    after:bottom-0
+                    after:left-1/2
+                    hover:after:inset-x-0 hover:after:w-full
+                  "
+                  >Kontakt</a
+                >
+              </li>
+            </ul>
+            <ul class="flex divide-x divide-gray-500">
+              <li class="px-3">
+                <a
+                  href="./cookies/"
+                  class="
+                    relative
+                    transition-colors
+                    hover:text-gray-700
+                    after:absolute
+                    after:h-px
+                    after:transition-all
+                    after:bg-gray-700
+                    after:w-0
+                    after:transform
+                    after:bottom-0
+                    after:left-1/2
+                    hover:after:inset-x-0 hover:after:w-full
+                  "
+                  >Cookies</a
+                >
+              </li>
+              <li class="px-3">
+                <a
+                  href="./osobni-udaje/"
+                  class="
+                    relative
+                    transition-colors
+                    hover:text-gray-700
+                    after:absolute
+                    after:h-px
+                    after:transition-all
+                    after:bg-gray-700
+                    after:w-0
+                    after:transform
+                    after:bottom-0
+                    after:left-1/2
+                    hover:after:inset-x-0 hover:after:w-full
+                  "
+                  >Osobní údaje</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div>
+            © 2022
+            <!-- <?php echo date("Y");?>, -->
+            <span class="text-mainG uppercase">SeniorLand</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script src="./assets/js/hamburgerMenu.js"></script>
+  <script src="./assets/js/accordionAnim.js"></script>
+  <script src="./assets/js/userForm.js"></script>
+</html>

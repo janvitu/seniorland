@@ -1,0 +1,1487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Časté dotazy</title>
+    <link rel="stylesheet" href="../assets/css/tailwind.css" />
+  </head>
+  <body>
+    <!-- Main header navigation -->
+    <header
+      id="navbar"
+      class="px-5 py-4 md:py-7 sticky inset-x-0 top-0 bg-gray-50 z-20 shadow-md"
+    >
+      <nav class="flex items-center flex-row justify-between">
+        <a href="../">
+          <img
+            src="../assets/img/photos/logo/logo.png"
+            alt="SeniorLand logo"
+            class="h-12 w-auto"
+          />
+        </a>
+        <!-- hamburger opener -->
+        <div>
+          <div class="md:hidden w-14 h-14">
+            <button
+              id="hamburger"
+              class="
+                w-full
+                h-full
+                block
+                relative
+                cursor-pointer
+                z-50
+                bg-transparent
+                border-0
+              "
+              aria-label="Navigation opener"
+            >
+              <span
+                class="
+                  absolute
+                  bg-black
+                  h-0.5
+                  w-8
+                  left-1/2
+                  transform
+                  -translate-x-1/2
+                  top-1/3
+                  transition-all
+                "
+              ></span>
+              <span
+                class="
+                  absolute
+                  bg-black
+                  h-0.5
+                  w-8
+                  left-1/2
+                  transform
+                  -translate-x-1/2
+                  top-1/2
+                  transition-all
+                "
+              ></span>
+              <span
+                class="
+                  absolute
+                  bg-black
+                  h-0.5
+                  w-8
+                  left-1/2
+                  transform
+                  -translate-x-1/2
+                  top
+                  1/2
+                  transition-all
+                "
+              ></span>
+              <span
+                class="
+                  absolute
+                  bg-black
+                  h-0.5
+                  w-8
+                  left-1/2
+                  transform
+                  -translate-x-1/2
+                  top-2/3
+                  transition-all
+                "
+              ></span>
+            </button>
+          </div>
+          <!-- Nav list -->
+          <ul
+            id="nav-list"
+            class="
+              md:shadow-none
+              hidden
+              absolute
+              text-center
+              transform
+              origin-top-right
+              md:transform-none
+              flex-col
+              bg-gray-50
+              inset-x-0
+              top-full
+              divide-y divide-black
+              md:flex
+              md:flex-row
+              md:static
+              md:right-auto
+              md:top-auto
+              md:rounded-none
+              md:divide-y-0
+              gap-4
+              text-xl
+              font-medium
+              transition-all
+              md:animate-none
+              animate-pop
+            "
+          >
+            <li>
+              <a
+                href="../pobyt/"
+                class="
+                  hover:text-mainG
+                  transition-colors
+                  block
+                  px-6
+                  py-4
+                  whitespace-nowrap
+                  md:p-0
+                "
+                >Pobyt</a
+              >
+            </li>
+            <li>
+              <a
+                href="../aktivity/"
+                class="
+                  hover:text-mainG
+                  transition-colors
+                  block
+                  px-6
+                  py-4
+                  whitespace-nowrap
+                  md:p-0
+                "
+                >Aktivity</a
+              >
+            </li>
+            <li>
+              <a
+                href="../areal/"
+                class="
+                  hover:text-mainG
+                  transition-colors
+                  block
+                  px-6
+                  py-4
+                  whitespace-nowrap
+                  md:p-0
+                "
+                >Areál</a
+              >
+            </li>
+            <li>
+              <a
+                href="../lokalita/"
+                class="
+                  hover:text-mainG
+                  transition-colors
+                  block
+                  px-6
+                  py-4
+                  whitespace-nowrap
+                  md:p-0
+                "
+                >Lokalita</a
+              >
+            </li>
+            <li>
+              <a
+                href="../zdravotni-pece/"
+                class="
+                  hover:text-mainG
+                  transition-colors
+                  block
+                  px-6
+                  py-4
+                  whitespace-nowrap
+                  md:p-0
+                "
+                >Zdravotní péče</a
+              >
+            </li>
+            <li>
+              <a
+                href="../caste-dotazy/"
+                class="
+                  link--active
+                  hover:text-mainG
+                  transition-colors
+                  block
+                  px-6
+                  py-4
+                  whitespace-nowrap
+                  md:p-0
+                "
+                >Časté dotazy</a
+              >
+            </li>
+            <li>
+              <a
+                href="../kontakt/"
+                class="
+                  hover:text-mainG
+                  transition-colors
+                  block
+                  px-6
+                  py-4
+                  whitespace-nowrap
+                  md:p-0
+                "
+                >Kontakt</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- FAQ -->
+    <section class="relative py-12 lg:py-16 px-4 sm:px-6 lg:px-8" id="faqs">
+      <header class="text-center">
+        <h1 class="text-3xl normal-case font-extrabold">Časté dotazy</h1>
+      </header>
+      <main class="max-w-3xl mx-auto divide-y-2 divide-gray-200">
+        <!-- FAQ list -->
+        <dl class="mt-6 space-y-6 divide-y divide-gray-200">
+          <!-- FAQ item -->
+          <div class="pt-6">
+            <dt class="text-lg">
+              <button
+                type="button"
+                class="
+                  text-left
+                  w-full
+                  flex
+                  justify-between
+                  items-start
+                  text-gray-400
+                "
+                aria-controls="faq-0"
+                aria-expanded="false"
+              >
+                <span class="font-medium text-gray-900"
+                  >Kdy bude projekt hotový</span
+                >
+                <span class="ml-6 h-7 flex items-center">
+                  <svg
+                    class="h-6 w-6 transition-all ease-in-out duration-200"
+                    style="rotate: -90deg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </dt>
+            <dd
+              class="
+                mt-2
+                pr-12
+                max-h-0
+                transition-all
+                duration-200
+                ease-in-out
+                overflow-hidden
+              "
+              id="faq-0"
+            >
+              <p class="text-base text-gray-500">
+                Začátek staveb je plánován na začátek druhé poloviny roku 2022.
+              </p>
+            </dd>
+          </div>
+          <!-- FAQ item -->
+          <div class="pt-6">
+            <dt class="text-lg">
+              <button
+                type="button"
+                class="
+                  text-left
+                  w-full
+                  flex
+                  justify-between
+                  items-start
+                  text-gray-400
+                "
+                aria-controls="faq-1"
+                aria-expanded="false"
+              >
+                <span class="font-medium text-gray-900"
+                  >Kde se areál nachází</span
+                >
+                <span class="ml-6 h-7 flex items-center">
+                  <svg
+                    class="h-6 w-6 transition-all ease-in-out duration-200"
+                    style="rotate: -90deg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </dt>
+            <dd
+              class="
+                mt-2
+                pr-12
+                max-h-0
+                transition-all
+                duration-200
+                ease-in-out
+                overflow-hidden
+              "
+              id="faq-1"
+            >
+              <p class="text-base text-gray-500">
+                Leží ve vzdálenosti 7 km od Týnce nad Labem a 10 km od Kolína.
+              </p>
+            </dd>
+          </div>
+          <!-- FAQ item -->
+          <div class="pt-6">
+            <dt class="text-lg">
+              <button
+                type="button"
+                class="
+                  text-left
+                  w-full
+                  flex
+                  justify-between
+                  items-start
+                  text-gray-400
+                "
+                aria-controls="faq-2"
+                aria-expanded="false"
+              >
+                <span class="font-medium text-gray-900"
+                  >Jaká je dostupnost</span
+                >
+                <span class="ml-6 h-7 flex items-center">
+                  <svg
+                    class="h-6 w-6 transition-all ease-in-out duration-200"
+                    style="rotate: -90deg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </dt>
+            <dd
+              class="
+                mt-2
+                pr-12
+                max-h-0
+                transition-all
+                duration-200
+                ease-in-out
+                overflow-hidden
+              "
+              id="faq-2"
+            >
+              <p class="text-base text-gray-500">
+                Dostupnost je nejjednodušší pomocí automobilu. V obci je
+                autobusová zastávka, nejbližší vlaková stanice je Kolín nebo
+                Týnec nad Labem.
+              </p>
+            </dd>
+          </div>
+          <!-- FAQ item -->
+          <div class="pt-6">
+            <dt class="text-lg">
+              <button
+                type="button"
+                class="
+                  text-left
+                  w-full
+                  flex
+                  justify-between
+                  items-start
+                  text-gray-400
+                "
+                aria-controls="faq-3"
+                aria-expanded="false"
+              >
+                <span class="font-medium text-gray-900"
+                  >Je možné zde parkovat</span
+                >
+                <span class="ml-6 h-7 flex items-center">
+                  <svg
+                    class="h-6 w-6 transition-all ease-in-out duration-200"
+                    style="rotate: -90deg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </dt>
+            <dd
+              class="
+                mt-2
+                pr-12
+                max-h-0
+                transition-all
+                duration-200
+                ease-in-out
+                overflow-hidden
+              "
+              id="faq-3"
+            >
+              <p class="text-base text-gray-500">
+                V areálu se nachází prostorné parkoviště.
+              </p>
+            </dd>
+          </div>
+          <!-- FAQ item -->
+          <div class="pt-6">
+            <dt class="text-lg">
+              <button
+                type="button"
+                class="
+                  text-left
+                  w-full
+                  flex
+                  justify-between
+                  items-start
+                  text-gray-400
+                "
+                aria-controls="faq-4"
+                aria-expanded="false"
+              >
+                <span class="font-medium text-gray-900"
+                  >Jaké aktivity je možné provozovat</span
+                >
+                <span class="ml-6 h-7 flex items-center">
+                  <svg
+                    class="h-6 w-6 transition-all ease-in-out duration-200"
+                    style="rotate: -90deg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </dt>
+            <dd
+              class="
+                mt-2
+                pr-12
+                max-h-0
+                transition-all
+                duration-200
+                ease-in-out
+                overflow-hidden
+              "
+              id="faq-4"
+            >
+              <p class="text-base text-gray-500">
+                Bowling, cyklistika, vycházky do přírody, houbaření,
+                zahradničení a mnoho dalšího.
+              </p>
+            </dd>
+          </div>
+          <!-- FAQ item -->
+          <div class="pt-6">
+            <dt class="text-lg">
+              <button
+                type="button"
+                class="
+                  text-left
+                  w-full
+                  flex
+                  justify-between
+                  items-start
+                  text-gray-400
+                "
+                aria-controls="faq-5"
+                aria-expanded="false"
+              >
+                <span class="font-medium text-gray-900"
+                  >Jak vypadá ubytování</span
+                >
+                <span class="ml-6 h-7 flex items-center">
+                  <svg
+                    class="h-6 w-6 transition-all ease-in-out duration-200"
+                    style="rotate: -90deg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </dt>
+            <dd
+              class="
+                mt-2
+                pr-12
+                max-h-0
+                transition-all
+                duration-200
+                ease-in-out
+                overflow-hidden
+              "
+              id="faq-5"
+            >
+              <p class="text-base text-gray-500">
+                Apartmány budou dispozičně řešeny 1+kk nebo 2+kk, varianta
+                bydlení pro 1 i 2 osoby.
+              </p>
+            </dd>
+          </div>
+          <!-- FAQ item -->
+          <div class="pt-6">
+            <dt class="text-lg">
+              <button
+                type="button"
+                class="
+                  text-left
+                  w-full
+                  flex
+                  justify-between
+                  items-start
+                  text-gray-400
+                "
+                aria-controls="faq-6"
+                aria-expanded="false"
+              >
+                <span class="font-medium text-gray-900">Jaké je zázemí</span>
+                <span class="ml-6 h-7 flex items-center">
+                  <svg
+                    class="h-6 w-6 transition-all ease-in-out duration-200"
+                    style="rotate: -90deg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </dt>
+            <dd
+              class="
+                mt-2
+                pr-12
+                max-h-0
+                transition-all
+                duration-200
+                ease-in-out
+                overflow-hidden
+              "
+              id="faq-6"
+            >
+              <p class="text-base text-gray-500">
+                Knihovna, společenská místnost, restaurace, hotel, vinný
+                sklípek, ordinace lékaře.
+              </p>
+            </dd>
+          </div>
+          <!-- FAQ item -->
+          <div class="pt-6">
+            <dt class="text-lg">
+              <button
+                type="button"
+                class="
+                  text-left
+                  w-full
+                  flex
+                  justify-between
+                  items-start
+                  text-gray-400
+                "
+                aria-controls="faq-7"
+                aria-expanded="false"
+              >
+                <span class="font-medium text-gray-900"
+                  >Bydlí se samostatně nebo společně</span
+                >
+                <span class="ml-6 h-7 flex items-center">
+                  <svg
+                    class="h-6 w-6 transition-all ease-in-out duration-200"
+                    style="rotate: -90deg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </dt>
+            <dd
+              class="
+                mt-2
+                pr-12
+                max-h-0
+                transition-all
+                duration-200
+                ease-in-out
+                overflow-hidden
+              "
+              id="faq-7"
+            >
+              <p class="text-base text-gray-500">Obě varianty jsou možné.</p>
+            </dd>
+          </div>
+          <!-- FAQ item -->
+          <div class="pt-6">
+            <dt class="text-lg">
+              <button
+                type="button"
+                class="
+                  text-left
+                  w-full
+                  flex
+                  justify-between
+                  items-start
+                  text-gray-400
+                "
+                aria-controls="faq-8"
+                aria-expanded="false"
+              >
+                <span class="font-medium text-gray-900"
+                  >Může se do areálu někdo dostat</span
+                >
+                <span class="ml-6 h-7 flex items-center">
+                  <svg
+                    class="h-6 w-6 transition-all ease-in-out duration-200"
+                    style="rotate: -90deg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </dt>
+            <dd
+              class="
+                mt-2
+                pr-12
+                max-h-0
+                transition-all
+                duration-200
+                ease-in-out
+                overflow-hidden
+              "
+              id="faq-8"
+            >
+              <p class="text-base text-gray-500">
+                Areál je kompletně oplocen a ubytování je zabezpečeno proti
+                vstupu neoprávněné osoby.
+              </p>
+            </dd>
+          </div>
+          <!-- FAQ item -->
+          <div class="pt-6">
+            <dt class="text-lg">
+              <button
+                type="button"
+                class="
+                  text-left
+                  w-full
+                  flex
+                  justify-between
+                  items-start
+                  text-gray-400
+                "
+                aria-controls="faq-9"
+                aria-expanded="false"
+              >
+                <span class="font-medium text-gray-900"
+                  >Kolik lidí zde bude ubytováno</span
+                >
+                <span class="ml-6 h-7 flex items-center">
+                  <svg
+                    class="h-6 w-6 transition-all ease-in-out duration-200"
+                    style="rotate: -90deg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </dt>
+            <dd
+              class="
+                mt-2
+                pr-12
+                max-h-0
+                transition-all
+                duration-200
+                ease-in-out
+                overflow-hidden
+              "
+              id="faq-9"
+            >
+              <p class="text-base text-gray-500">
+                V první fázi je kapacita nastavena na 120 osob.
+              </p>
+            </dd>
+          </div>
+          <!-- FAQ item -->
+          <div class="pt-6">
+            <dt class="text-lg">
+              <button
+                type="button"
+                class="
+                  text-left
+                  w-full
+                  flex
+                  justify-between
+                  items-start
+                  text-gray-400
+                "
+                aria-controls="faq-10"
+                aria-expanded="false"
+              >
+                <span class="font-medium text-gray-900"
+                  >Jaký je denní program</span
+                >
+                <span class="ml-6 h-7 flex items-center">
+                  <svg
+                    class="h-6 w-6 transition-all ease-in-out duration-200"
+                    style="rotate: -90deg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </dt>
+            <dd
+              class="
+                mt-2
+                pr-12
+                max-h-0
+                transition-all
+                duration-200
+                ease-in-out
+                overflow-hidden
+              "
+              id="faq-10"
+            >
+              <p class="text-base text-gray-500">
+                Denní program je zcela ve vaší režii, my zajišťujeme spoustu
+                akcí a výletů, ale je čistě na vás, jak si svůj čas chcete
+                zorganizovat.
+              </p>
+            </dd>
+          </div>
+          <!-- FAQ item -->
+          <div class="pt-6">
+            <dt class="text-lg">
+              <button
+                type="button"
+                class="
+                  text-left
+                  w-full
+                  flex
+                  justify-between
+                  items-start
+                  text-gray-400
+                "
+                aria-controls="faq-11"
+                aria-expanded="false"
+              >
+                <span class="font-medium text-gray-900"
+                  >Je zde občanská vybavenost</span
+                >
+                <span class="ml-6 h-7 flex items-center">
+                  <svg
+                    class="h-6 w-6 transition-all ease-in-out duration-200"
+                    style="rotate: -90deg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </dt>
+            <dd
+              class="
+                mt-2
+                pr-12
+                max-h-0
+                transition-all
+                duration-200
+                ease-in-out
+                overflow-hidden
+              "
+              id="faq-11"
+            >
+              <p class="text-base text-gray-500">
+                V obci se nachází autobusová zastávka, kadeřnictví, hospoda,
+                samoobsluha.
+              </p>
+            </dd>
+          </div>
+          <!-- FAQ item -->
+          <div class="pt-6">
+            <dt class="text-lg">
+              <button
+                type="button"
+                class="
+                  text-left
+                  w-full
+                  flex
+                  justify-between
+                  items-start
+                  text-gray-400
+                "
+                aria-controls="faq-12"
+                aria-expanded="false"
+              >
+                <span class="font-medium text-gray-900"
+                  >Je dostupná lékařská péče</span
+                >
+                <span class="ml-6 h-7 flex items-center">
+                  <svg
+                    class="h-6 w-6 transition-all ease-in-out duration-200"
+                    style="rotate: -90deg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </dt>
+            <dd
+              class="
+                mt-2
+                pr-12
+                max-h-0
+                transition-all
+                duration-200
+                ease-in-out
+                overflow-hidden
+              "
+              id="faq-12"
+            >
+              <p class="text-base text-gray-500">
+                Odborná lékařská péče je zajištěna 24 hodin denně.
+              </p>
+            </dd>
+          </div>
+          <!-- FAQ item -->
+          <div class="pt-6">
+            <dt class="text-lg">
+              <button
+                type="button"
+                class="
+                  text-left
+                  w-full
+                  flex
+                  justify-between
+                  items-start
+                  text-gray-400
+                "
+                aria-controls="faq-13"
+                aria-expanded="false"
+              >
+                <span class="font-medium text-gray-900"
+                  >Jak je to se stravováním
+                </span>
+                <span class="ml-6 h-7 flex items-center">
+                  <svg
+                    class="h-6 w-6 transition-all ease-in-out duration-200"
+                    style="rotate: -90deg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </dt>
+            <dd
+              class="
+                mt-2
+                pr-12
+                max-h-0
+                transition-all
+                duration-200
+                ease-in-out
+                overflow-hidden
+              "
+              id="faq-13"
+            >
+              <p class="text-base text-gray-500">
+                Stravování je možné v rezidenční restauraci nebo je možné si
+                stravu připravovat sami.
+              </p>
+            </dd>
+          </div>
+          <!-- FAQ item -->
+          <div class="pt-6">
+            <dt class="text-lg">
+              <button
+                type="button"
+                class="
+                  text-left
+                  w-full
+                  flex
+                  justify-between
+                  items-start
+                  text-gray-400
+                "
+                aria-controls="faq-14"
+                aria-expanded="false"
+              >
+                <span class="font-medium text-gray-900">Možnost přespání </span>
+                <span class="ml-6 h-7 flex items-center">
+                  <svg
+                    class="h-6 w-6 transition-all ease-in-out duration-200"
+                    style="rotate: -90deg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </dt>
+            <dd
+              class="
+                mt-2
+                pr-12
+                max-h-0
+                transition-all
+                duration-200
+                ease-in-out
+                overflow-hidden
+              "
+              id="faq-14"
+            >
+              <p class="text-base text-gray-500">
+                Pro hosty nebo příbuzné je možné využít ubytování v hotelu přímo
+                v areálu.
+              </p>
+            </dd>
+          </div>
+          <!-- FAQ item -->
+          <div class="pt-6">
+            <dt class="text-lg">
+              <button
+                type="button"
+                class="
+                  text-left
+                  w-full
+                  flex
+                  justify-between
+                  items-start
+                  text-gray-400
+                "
+                aria-controls="faq-16"
+                aria-expanded="false"
+              >
+                <span class="font-medium text-gray-900"
+                  >Je možné si byt koupit
+                </span>
+                <span class="ml-6 h-7 flex items-center">
+                  <svg
+                    class="h-6 w-6 transition-all ease-in-out duration-200"
+                    style="rotate: -90deg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </dt>
+            <dd
+              class="
+                mt-2
+                pr-12
+                max-h-0
+                transition-all
+                duration-200
+                ease-in-out
+                overflow-hidden
+              "
+              id="faq-16"
+            >
+              <p class="text-base text-gray-500">
+                V současné chvíli bude možný pouze pronájem.
+              </p>
+            </dd>
+          </div>
+          <!-- FAQ item -->
+          <div class="pt-6">
+            <dt class="text-lg">
+              <button
+                type="button"
+                class="
+                  text-left
+                  w-full
+                  flex
+                  justify-between
+                  items-start
+                  text-gray-400
+                "
+                aria-controls="faq-17"
+                aria-expanded="false"
+              >
+                <span class="font-medium text-gray-900"
+                  >Mohu žádat o změnu trvalého bydliště
+                </span>
+                <span class="ml-6 h-7 flex items-center">
+                  <svg
+                    class="h-6 w-6 transition-all ease-in-out duration-200"
+                    style="rotate: -90deg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </dt>
+            <dd
+              class="
+                mt-2
+                pr-12
+                max-h-0
+                transition-all
+                duration-200
+                ease-in-out
+                overflow-hidden
+              "
+              id="faq-17"
+            >
+              <p class="text-base text-gray-500">
+                Ano, převedení je samozřejmostí.
+              </p>
+            </dd>
+          </div>
+          <!-- FAQ item -->
+          <div class="pt-6">
+            <dt class="text-lg">
+              <button
+                type="button"
+                class="
+                  text-left
+                  w-full
+                  flex
+                  justify-between
+                  items-start
+                  text-gray-400
+                "
+                aria-controls="faq-18"
+                aria-expanded="false"
+              >
+                <span class="font-medium text-gray-900"
+                  >Kapacita ubytování
+                </span>
+                <span class="ml-6 h-7 flex items-center">
+                  <svg
+                    class="h-6 w-6 transition-all ease-in-out duration-200"
+                    style="rotate: -90deg"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </dt>
+            <dd
+              class="
+                mt-2
+                pr-12
+                max-h-0
+                transition-all
+                duration-200
+                ease-in-out
+                overflow-hidden
+              "
+              id="faq-18"
+            >
+              <p class="text-base text-gray-500">
+                Celková kapacita apartmánů je 120.
+              </p>
+            </dd>
+          </div>
+        </dl>
+      </main>
+    </section>
+    <footer class="bg-gray-100 relative py-12 lg:py-16 px-6 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto text-center space-y-4 text-gray-500">
+        <nav class="flex flex-col justify-center items-center space-y-4">
+          <ul
+            class="
+              flex flex-col
+              md:flex-row
+              divide-y
+              md:divide-x md:divide-y-0
+              divide-gray-500
+            "
+          >
+            <li class="px-3 py-3 md:py-1">
+              <a
+                href="../"
+                class="
+                  relative
+                  transition-colors
+                  hover:text-gray-700
+                  after:absolute
+                  after:h-px
+                  after:transition-all
+                  after:bg-gray-700
+                  after:w-0
+                  after:transform
+                  after:bottom-0
+                  after:left-1/2
+                  hover:after:inset-x-0 hover:after:w-full
+                "
+                >Domovská stránka</a
+              >
+            </li>
+            <li class="px-3 py-3 md:py-1">
+              <a
+                href="../pobyt/"
+                class="
+                  relative
+                  transition-colors
+                  hover:text-gray-700
+                  after:absolute
+                  after:h-px
+                  after:transition-all
+                  after:bg-gray-700
+                  after:w-0
+                  after:transform
+                  after:bottom-0
+                  after:left-1/2
+                  hover:after:inset-x-0 hover:after:w-full
+                "
+                >Pobyt</a
+              >
+            </li>
+            <li class="px-3 py-3 md:py-1">
+              <a
+                href="../aktivity/"
+                class="
+                  relative
+                  transition-colors
+                  hover:text-gray-700
+                  after:absolute
+                  after:h-px
+                  after:transition-all
+                  after:bg-gray-700
+                  after:w-0
+                  after:transform
+                  after:bottom-0
+                  after:left-1/2
+                  hover:after:inset-x-0 hover:after:w-full
+                "
+                >Aktivity</a
+              >
+            </li>
+            <li class="px-3 py-3 md:py-1">
+              <a
+                href="../areal/"
+                class="
+                  relative
+                  transition-colors
+                  hover:text-gray-700
+                  after:absolute
+                  after:h-px
+                  after:transition-all
+                  after:bg-gray-700
+                  after:w-0
+                  after:transform
+                  after:bottom-0
+                  after:left-1/2
+                  hover:after:inset-x-0 hover:after:w-full
+                "
+                >Areál</a
+              >
+            </li>
+            <li class="px-3 py-3 md:py-1">
+              <a
+                href="../lokalita/"
+                class="
+                  relative
+                  transition-colors
+                  hover:text-gray-700
+                  after:absolute
+                  after:h-px
+                  after:transition-all
+                  after:bg-gray-700
+                  after:w-0
+                  after:transform
+                  after:bottom-0
+                  after:left-1/2
+                  hover:after:inset-x-0 hover:after:w-full
+                "
+                >Lokalita</a
+              >
+            </li>
+            <li class="px-3 py-3 md:py-1">
+              <a
+                href="../zdravotni-pece/"
+                class="
+                  relative
+                  transition-colors
+                  hover:text-gray-700
+                  after:absolute
+                  after:h-px
+                  after:transition-all
+                  after:bg-gray-700
+                  after:w-0
+                  after:transform
+                  after:bottom-0
+                  after:left-1/2
+                  hover:after:inset-x-0 hover:after:w-full
+                "
+                >Zdravotní péče</a
+              >
+            </li>
+            <li class="px-3 py-3 md:py-1">
+              <a
+                href="../caste-dotazy/"
+                class="
+                  relative
+                  transition-colors
+                  hover:text-gray-700
+                  after:absolute
+                  after:h-px
+                  after:transition-all
+                  after:bg-gray-700
+                  after:w-0
+                  after:transform
+                  after:bottom-0
+                  after:left-1/2
+                  hover:after:inset-x-0 hover:after:w-full
+                "
+                >Časté dotazy</a
+              >
+            </li>
+            <li class="px-3 py-3 md:py-1">
+              <a
+                href="../kontakt/"
+                class="
+                  relative
+                  transition-colors
+                  hover:text-gray-700
+                  after:absolute
+                  after:h-px
+                  after:transition-all
+                  after:bg-gray-700
+                  after:w-0
+                  after:transform
+                  after:bottom-0
+                  after:left-1/2
+                  hover:after:inset-x-0 hover:after:w-full
+                "
+                >Kontakt</a
+              >
+            </li>
+          </ul>
+          <ul class="flex divide-x divide-gray-500">
+            <li class="px-3">
+              <a
+                href="../cookies/"
+                class="
+                  relative
+                  transition-colors
+                  hover:text-gray-700
+                  after:absolute
+                  after:h-px
+                  after:transition-all
+                  after:bg-gray-700
+                  after:w-0
+                  after:transform
+                  after:bottom-0
+                  after:left-1/2
+                  hover:after:inset-x-0 hover:after:w-full
+                "
+                >Cookies</a
+              >
+            </li>
+            <li class="px-3">
+              <a
+                href="../osobni-udaje/"
+                class="
+                  relative
+                  transition-colors
+                  hover:text-gray-700
+                  after:absolute
+                  after:h-px
+                  after:transition-all
+                  after:bg-gray-700
+                  after:w-0
+                  after:transform
+                  after:bottom-0
+                  after:left-1/2
+                  hover:after:inset-x-0 hover:after:w-full
+                "
+                >Osobní údaje</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div>
+          ©
+          <!-- <?php echo date("Y");?>, -->
+          <span class="text-mainG uppercase">SeniorLand</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="../assets/js/hamburgerMenu.js"></script>
+  <script src="../assets/js/accordionAnim.js"></script>
+</html>

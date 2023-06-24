@@ -1,0 +1,81 @@
+@import url("fonts.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply lg:text-[18px];
+  }
+  p {
+    @apply lg:text-lg text-gray-500;
+  }
+  section {
+    content-visibility: auto;
+    contain-intrinsic-size: 700px;
+  }
+  h2 {
+    @apply uppercase;
+  }
+  h3 {
+    @apply text-4xl font-extrabold;
+  }
+  h4 {
+    @apply text-3xl font-bold mb-4;
+  }
+  h5 {
+    @apply text-xl font-bold;
+  }
+  .hamburger--is-toggled span:first-child,
+  .hamburger--is-toggled span:last-child {
+    @apply w-0;
+    @apply left-1/2;
+  }
+  .hamburger--is-toggled span:nth-child(2) {
+    @apply rotate-45;
+  }
+  .hamburger--is-toggled span:nth-child(3) {
+    @apply -rotate-45;
+  }
+  .link--active {
+    @apply text-mainG relative md:after:absolute  md:after:h-[3px] md:after:w-full md:after:bg-mainG md:after:-bottom-1 md:after:left-0;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+textarea:required + label::after,
+input:required + label::after {
+  content: " *";
+}
+.is-visited label {
+  @apply transform top-0 bg-white -translate-y-1/2 text-sm;
+}
+
+.is-invalid label {
+  @apply text-yellow-500 bg-white transform top-0 -translate-y-1/2 text-sm;
+}
+.is-focused label {
+  @apply transform translate-y-0 text-sm;
+}
+
+.is-visited:not(.is-invalid, .is-focused) {
+  @apply border-mainG text-mainG;
+}
+
+.is-visited {
+  @apply border border-black text-gray-500;
+}
+.is-invalid {
+  @apply border-yellow-500;
+}
+
+.is-focused {
+  @apply border border-black;
+}
+
+input:focus-within + label,
+textarea:focus-within + label {
+  @apply top-0 -translate-y-1/2 text-gray-500 bg-white;
+}

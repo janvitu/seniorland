@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SeniorLand - Ochrana osobních údajů</title>
+    <link rel="stylesheet" href="../assets/css/tailwind.css" />
+  </head>
+  <body>
+    <!-- Main header navigation -->
+    <header
+      id="navbar"
+      class="px-5 py-4 md:py-7 sticky inset-x-0 top-0 bg-gray-50 z-20 shadow-md"
+    >
+      <nav class="flex items-center flex-row justify-between">
+        <a href="../">
+          <img
+            src="../assets/img/photos/logo/logo.png"
+            alt="SeniorLand logo"
+            class="h-12 w-auto"
+          />
+        </a>
+        <!-- hamburger opener -->
+        <div>
+          <div class="md:hidden w-14 h-14">
+            <button
+              id="hamburger"
+              class="
+                w-full
+                h-full
+                block
+                relative
+                cursor-pointer
+                z-50
+                bg-transparent
+                border-0
+              "
+              aria-label="Navigation opener"
+            >
+              <span
+                class="
+                  absolute
+                  bg-black
+                  h-0.5
+                  w-8
+                  left-1/2
+                  transform
+                  -translate-x-1/2
+                  top-1/3
+                  transition-all
+                "
+              ></span>
+              <span
+                class="
+                  absolute
+                  bg-black
+                  h-0.5
+                  w-8
+                  left-1/2
+                  transform
+                  -translate-x-1/2
+                  top-1/2
+                  transition-all
+                "
+              ></span>
+              <span
+                class="
+                  absolute
+                  bg-black
+                  h-0.5
+                  w-8
+                  left-1/2
+                  transform
+                  -translate-x-1/2
+                  top
+                  1/2
+                  transition-all
+                "
+              ></span>
+              <span
+                class="
+                  absolute
+                  bg-black
+                  h-0.5
+                  w-8
+                  left-1/2
+                  transform
+                  -translate-x-1/2
+                  top-2/3
+                  transition-all
+                "
+              ></span>
+            </button>
+          </div>
+          <!-- Nav list -->
+          <ul
+            id="nav-list"
+            class="
+              md:shadow-none
+              hidden
+              absolute
+              text-center
+              transform
+              origin-top-right
+              md:transform-none
+              flex-col
+              bg-gray-50
+              inset-x-0
+              top-full
+              divide-y divide-black
+              md:flex
+              md:flex-row
+              md:static
+              md:right-auto
+              md:top-auto
+              md:rounded-none
+              md:divide-y-0
+              gap-4
+              text-xl
+              font-medium
+              transition-all
+              md:animate-none
+              animate-pop
+            "
+          >
+            <li>
+              <a
+                href="../pobyt/"
+                class="
+                  hover:text-mainG
+                  transition-colors
+                  block
+                  px-6
+                  py-4
+                  whitespace-nowrap
+                  md:p-0
+                "
+                >Pobyt</a
+              >
+            </li>
+            <li>
+              <a
+                href="../aktivity/"
+                class="
+                  hover:text-mainG
+                  transition-colors
+                  block
+                  px-6
+                  py-4
+                  whitespace-nowrap
+                  md:p-0
+                "
+                >Aktivity</a
+              >
+            </li>
+            <li>
+              <a
+                href="../areal/"
+                class="
+                  hover:text-mainG
+                  transition-colors
+                  block
+                  px-6
+                  py-4
+                  whitespace-nowrap
+                  md:p-0
+                "
+                >Areál</a
+              >
+            </li>
+            <li>
+              <a
+                href="../lokalita/"
+                class="
+                  hover:text-mainG
+                  transition-colors
+                  block
+                  px-6
+                  py-4
+                  whitespace-nowrap
+                  md:p-0
+                "
+                >Lokalita</a
+              >
+            </li>
+            <li>
+              <a
+                href="../zdravotni-pece/"
+                class="
+                  hover:text-mainG
+                  transition-colors
+                  block
+                  px-6
+                  py-4
+                  whitespace-nowrap
+                  md:p-0
+                "
+                >Zdravotní péče</a
+              >
+            </li>
+            <li>
+              <a
+                href="../caste-dotazy/"
+                class="
+                  hover:text-mainG
+                  transition-colors
+                  block
+                  px-6
+                  py-4
+                  whitespace-nowrap
+                  md:p-0
+                "
+                >Časté dotazy</a
+              >
+            </li>
+            <li>
+              <a
+                href="../kontakt/"
+                class="
+                  hover:text-mainG
+                  transition-colors
+                  block
+                  px-6
+                  py-4
+                  whitespace-nowrap
+                  md:p-0
+                "
+                >Kontakt</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="prose"></main>
+    <footer class="bg-gray-100 relative py-12 lg:py-16 px-6 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto text-center space-y-4 text-gray-500">
+        <nav class="flex flex-col justify-center items-center space-y-4">
+          <ul
+            class="
+              flex flex-col
+              md:flex-row
+              divide-y
+              md:divide-x md:divide-y-0
+              divide-gray-500
+            "
+          >
+            <li class="px-3 py-3 md:py-1">
+              <a
+                href="../"
+                class="
+                  relative
+                  transition-colors
+                  hover:text-gray-700
+                  after:absolute
+                  after:h-px
+                  after:transition-all
+                  after:bg-gray-700
+                  after:w-0
+                  after:transform
+                  after:bottom-0
+                  after:left-1/2
+                  hover:after:inset-x-0 hover:after:w-full
+                "
+                >Domovská stránka</a
+              >
+            </li>
+            <li class="px-3 py-3 md:py-1">
+              <a
+                href="../pobyt/"
+                class="
+                  relative
+                  transition-colors
+                  hover:text-gray-700
+                  after:absolute
+                  after:h-px
+                  after:transition-all
+                  after:bg-gray-700
+                  after:w-0
+                  after:transform
+                  after:bottom-0
+                  after:left-1/2
+                  hover:after:inset-x-0 hover:after:w-full
+                "
+                >Pobyt</a
+              >
+            </li>
+            <li class="px-3 py-3 md:py-1">
+              <a
+                href="../aktivity/"
+                class="
+                  relative
+                  transition-colors
+                  hover:text-gray-700
+                  after:absolute
+                  after:h-px
+                  after:transition-all
+                  after:bg-gray-700
+                  after:w-0
+                  after:transform
+                  after:bottom-0
+                  after:left-1/2
+                  hover:after:inset-x-0 hover:after:w-full
+                "
+                >Aktivity</a
+              >
+            </li>
+            <li class="px-3 py-3 md:py-1">
+              <a
+                href="../areal/"
+                class="
+                  relative
+                  transition-colors
+                  hover:text-gray-700
+                  after:absolute
+                  after:h-px
+                  after:transition-all
+                  after:bg-gray-700
+                  after:w-0
+                  after:transform
+                  after:bottom-0
+                  after:left-1/2
+                  hover:after:inset-x-0 hover:after:w-full
+                "
+                >Areál</a
+              >
+            </li>
+            <li class="px-3 py-3 md:py-1">
+              <a
+                href="../lokalita/"
+                class="
+                  relative
+                  transition-colors
+                  hover:text-gray-700
+                  after:absolute
+                  after:h-px
+                  after:transition-all
+                  after:bg-gray-700
+                  after:w-0
+                  after:transform
+                  after:bottom-0
+                  after:left-1/2
+                  hover:after:inset-x-0 hover:after:w-full
+                "
+                >Lokalita</a
+              >
+            </li>
+            <li class="px-3 py-3 md:py-1">
+              <a
+                href="../zdravotni-pece/"
+                class="
+                  relative
+                  transition-colors
+                  hover:text-gray-700
+                  after:absolute
+                  after:h-px
+                  after:transition-all
+                  after:bg-gray-700
+                  after:w-0
+                  after:transform
+                  after:bottom-0
+                  after:left-1/2
+                  hover:after:inset-x-0 hover:after:w-full
+                "
+                >Zdravotní péče</a
+              >
+            </li>
+            <li class="px-3 py-3 md:py-1">
+              <a
+                href="../kontakt/"
+                class="
+                  relative
+                  transition-colors
+                  hover:text-gray-700
+                  after:absolute
+                  after:h-px
+                  after:transition-all
+                  after:bg-gray-700
+                  after:w-0
+                  after:transform
+                  after:bottom-0
+                  after:left-1/2
+                  hover:after:inset-x-0 hover:after:w-full
+                "
+                >Kontakt</a
+              >
+            </li>
+          </ul>
+          <ul class="flex divide-x divide-gray-500">
+            <li class="px-3">
+              <a
+                href="../cookies/"
+                class="
+                  relative
+                  transition-colors
+                  hover:text-gray-700
+                  after:absolute
+                  after:h-px
+                  after:transition-all
+                  after:bg-gray-700
+                  after:w-0
+                  after:transform
+                  after:bottom-0
+                  after:left-1/2
+                  hover:after:inset-x-0 hover:after:w-full
+                "
+                >Cookies</a
+              >
+            </li>
+            <li class="px-3">
+              <a
+                href="../osobni-udaje/"
+                class="
+                  relative
+                  transition-colors
+                  hover:text-gray-700
+                  after:absolute
+                  after:h-px
+                  after:transition-all
+                  after:bg-gray-700
+                  after:w-0
+                  after:transform
+                  after:bottom-0
+                  after:left-1/2
+                  hover:after:inset-x-0 hover:after:w-full
+                "
+                >Osobní údaje</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div>
+          ©
+          <!-- <?php echo date("Y");?>, -->
+          <span class="text-mainG uppercase">SeniorLand</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="../assets/js/hamburgerMenu.js"></script>
+</html>
